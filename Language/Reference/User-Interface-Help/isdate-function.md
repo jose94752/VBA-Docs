@@ -40,10 +40,10 @@ MyCheck = IsDate(MyVar)    ' Returns True.
 MyVar = "13/32/2014"    ' Assign invalid date value.
 MyCheck = IsDate(MyVar)    ' Returns False.
 
-MyVar = "04.28.14"    ' Assign valid time value.
+MyVar = "04.28.14"    ' Assign valid date value.
 MyCheck = IsDate(MyVar)    ' Returns True.
 
-MyVar = "04.28.2014"    ' Assign invalid time value.
+MyVar = "04.28.2014"    ' Assign invalid date value.
 MyCheck = IsDate(MyVar)    ' Returns False.
 
 ```
